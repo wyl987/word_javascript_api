@@ -10,6 +10,36 @@
 *.userosscache
 *.sln.docstates
 
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE specific files
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Test results
+.nyc_output/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
