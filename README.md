@@ -2,24 +2,22 @@
 
 ## Overview
 
-Provide a brief overview of the project here, including the purpose and goals. Mention the technologies used, such as the Microsoft Word JavaScript API, Vitest for testing, and any other relevant technologies.
+This project utilizes the Microsoft Word JavaScript API to interact with Word documents. The add-in allows for detecting text formatting properties such as bold, underline, and font size of specific words within a document. It also includes automated tests written with Vitest to ensure proper functionality. The project provides an interactive user interface (UI) for displaying the detected text properties.
 
 ## Features
 
-- List the key features of the project here. For example:
-  - Interacts with Microsoft Word documents using JavaScript
-  - Detects and checks text formatting properties (e.g., bold, underline, font size)
-  - Handles blank documents and displays appropriate messages
-  - Provides an interactive UI to show the detected text formatting
-  - Automated testing with Vitest
+- Detects and checks text formatting (bold, underline, font size) for the first few words in a document.
+- Handles empty or blank documents and displays appropriate messages.
+- Provides real-time feedback on formatting through a user-friendly interface.
+- Automated testing using Vitest to ensure correct behavior.
 
 ## Prerequisites
 
-List the necessary tools and software to run the project:
+Before running the project, ensure that you have the following installed:
 
 - **Node.js** (version 16 or above)
 - **npm** or **yarn**
-- **Microsoft Office Add-ins** enabled (for interacting with Word documents)
+- **Microsoft Office Add-ins** enabled for Word
 
 ## Installation
 
