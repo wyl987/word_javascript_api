@@ -61,6 +61,7 @@ Run tests using the following command:
 
 ```bash
 npm run test
+```
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
